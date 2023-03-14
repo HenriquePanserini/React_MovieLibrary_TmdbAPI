@@ -1,0 +1,21 @@
+*{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin: 5px;
+  padding: 5px;
+  background-color: #383838;
+  box-sizing: border-box;
+}
+
+a{
+  color: gold;
+  font-size: 28px;
+  transition: .5s;
+}
+
+a:hover{
+  color: silver;
+}
