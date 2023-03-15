@@ -4,3 +4,7 @@
   - Router-dom
   - Hooks
   - Jest
+<h2>Atualização V0.2</h2>
+
+  - Adição de novo componente MovieCard.jsx
+    A partir dele sera exibido os poster, link de detalhes do filme e classificação na plaicação web.
