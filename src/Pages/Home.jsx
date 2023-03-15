@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react'
 const movieUrl = import.meta.VITE_API || 'https://api.themoviedb.org/3/movie/';
 const apiKey = import.meta.VITE_API_KEY || 'api_key=2f7e01095cf72db97a79a373d948db0f';
 
+import MovieCard from '../Components/MovieCard';
+
 const Home = () => {
     const [topMovies, setTopMovies] = useState([]);
 
@@ -26,7 +28,7 @@ const Home = () => {
             {topMovies === 0 && <p>Carregando...</p>}
             {topMovies.length > 0 && 
                 topMovies.map((movie) => (
-                    <p>{movie.title}</p>
+                    <MovieCard key={movie.id} movie={movie}/>
             ))}
           </section>
        </div> 
@@ -34,4 +36,4 @@ const Home = () => {
 
 }
 
-export default Home
+export default Home;
