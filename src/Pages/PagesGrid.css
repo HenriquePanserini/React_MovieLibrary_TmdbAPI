@@ -1,0 +1,45 @@
+.container-home .title {
+    color: #653492;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+ .tittle .query-text {
+    color: rgb(95, 54, 241);
+}
+
+.container-home #list-movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-home div {
+    width: 30%;
+    color: #FFF;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(184, 111, 226, 0.644);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.container-home div img {
+    max-width: 100%;
+}
+
+.container-home div img,
+.container-home div h2,
+.container-home div p {
+    margin-bottom: 1rem;
+}
+
+.container-home div svg {
+    color: goldenrod;
+}
