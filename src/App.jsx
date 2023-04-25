@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container-app">
         <Navbar />
-        <Home />
+        <Outlet />
     </div>
   )
 }

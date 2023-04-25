@@ -12,7 +12,11 @@ const MovieCard = ({movie, showLink = true}) => {
         <span>
             <FaStar />{movie.vote_average}
         </span> 
-        {showLink && <Link className='detail' to={`/movie/${movie.id}`}>Detalhes</Link>}   
+        {showLink && 
+        <Link 
+          className='detail' 
+          to={`/movie/${movie.id}`}
+        >Detalhes</Link>}   
     </div>
   )
 }
